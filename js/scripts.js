@@ -10,7 +10,13 @@ $(document).ready(function(){
                     $("#mycarousel").carousel('cycle');
                     $("#carousel-button").children("span").removeClass("fa-play");
                     $("#carousel-button").children("span").addClass("fa-pause");
-                } 
+                }    
+            });
+            $("#reserve-button").click(function(){
+                $('#ReserveModal').modal()  
+            });
+            $("#login-button").click(function(){
+                $('#loginModal').modal()  
             });
         });
-    
+
